@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Pham Huu Loi]</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <span class="logo">PHAM HUU LOI</span>
+            <nav class="navbar">
+                <a href="#" data-section="home" class="nav-link active">Home</a>
+                <a href="#" data-section="about" class="nav-link">About</a>
+                <a href="#" data-section="skills" class="nav-link">Skills</a>
+                <a href="#" data-section="projects" class="nav-link">Projects</a>
+                <a href="#" data-section="contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content">
+
+        <section id="home" class="hero content-section active">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Hi, I'm <br>PHAM HUU LOI, <span class="profession"> Developer</span></h1>
+                    <p>Welcome to my Portfolio! I have 5 years of experience in the field of design and development. I love turning complex ideas into simple, user-friendly solutions. </p>
+                    <br>
+                    <br>
+                    <br>
+                
+                    <div class="cta-buttons">
+                        <a href="#" data-section="projects" class="btn btn-primary nav-link">View Work</a>
+                        <a href="#" class="btn btn-secondary">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                  <img src="avatar.jpg" alt="avatar.jpg " class="avatar-img">
+                    <div class="placeholder-circle"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about content-section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p class="about-description">I am a professional Developer with a passion for creating effective and beautiful digital solutions.
+
+My core skills are developing websites from initial ideas to finished products, including both front-end and back-end.
+
+The purpose of this portfolio is to showcase the projects I have undertaken, clearly demonstrating my experience in building high-speed and user-friendly web applications.
+ I am always looking for opportunities to learn and apply the latest technologies in my work.</p>
+
+                <div class="about-stats">
+                    <div class="stat-card"><i class="fas fa-calendar-alt"></i><p>5 Years of Experience</p></div>
+                    <div class="stat-card"><i class="fas fa-briefcase"></i><p>20+ Projects</p></div>
+                    <div class="stat-card"><i class="fas fa-users"></i><p>10+ Clients</p></div>
+                </div>
+                
+                <div class="my-process">
+                    <h3>My Process</h3>
+                    <div class="process-steps">
+                        <div class="process-step">1. Analysis & Research</div>
+                        <div class="process-step">2. Interface Design (UI/UX)</div>
+                        <div class="process-step">3. Development & Testing</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills content-section">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="hard-skills">
+                    <div class="skill-item"><i class="fab fa-html5"></i><span>HTML</span></div>
+                    <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS</span></div>
+                    <div class="skill-item"><i class="fab fa-js"></i><span>JS</span></div>
+                    <div class="skill-item"><i class="fab fa-react"></i><span>React</span></div>
+                    <div class="skill-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                </div>
+                <div class="soft-skills">
+                    <h3>Soft Skills</h3>
+                    <p>Problem Solving, Teamwork, Time Management, Critical Thinking.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects content-section">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image-placeholder"></div>
+                        <h3>E-commerce Platform</h3>
+                        <p class="project-description">E-commerce platform using React and Node.js.</p>
+                        <span class="project-tag">Fullstack Dev</span>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline">Details</a>
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"></div>
+                        <h3>Mobile App Design</h3>
+                        <p class="project-description">UI/UX design for a task management application.</p>
+                        <span class="project-tag">UX/UI Design</span>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline">Details</a>
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image-placeholder"></div>
+                        <h3>Portfolio Website</h3>
+                        <p class="project-description">High-speed personal website using Vanilla JS.</p>
+                        <span class="project-tag">Frontend Dev</span>
+                        <div class="project-actions">
+                            <a href="#" class="btn btn-outline">Details</a>
+                            <a href="#" class="btn btn-primary">Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <section id="contact" class="contact content-section">
+            <div class="container">
+                <h2>Contact Me</h2>
+                
+                <form class="contact-form" action="mailto:huuloipham060695@gmail.com" method="POST" enctype="text/plain">
+                    <input type="text" name="Name" placeholder="Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" placeholder="Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/lowji.zt/" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/17GS52o5fV/?mibextid=wwXIfr" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.threads.com/@lowji.zt" target="_blank" title="Threads"><i class="fab fa-threads"></i></a> 
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 PHAM HUU LOI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
